@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+class publicClass{
+public:
+int publicFile ;
+void publicMethod(){
+} 
+};
+int main() { 
+    publicClass myObject, myobject ;
+    myobject.publicFile = 6 ;
+    cout << " Public File value = " <<  myobject.publicFile <<endl;
+    }

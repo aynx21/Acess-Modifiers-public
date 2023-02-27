@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+// this is private by default 
+class manager {
+    
+    int emp1Income = 5000;
+    //public function available for every one.
+    public :
+       int managerfn (){
+           cout << " Nadeem's income from Tiktok is :_ "<<emp1Income;
+           return emp1Income;
+       }
+    int emp2Income = 4000;   
+       
+    };
+int main() {
+ manager managerObj;
+ managerObj.managerfn();
+ 
+    return 0;
+}
